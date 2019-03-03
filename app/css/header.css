@@ -1,0 +1,49 @@
+#main-header {
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .container {
+    width: 90%;
+    margin: auto;
+}
+
+#main-header .container .half {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    color: #FFFFFF;
+}
+
+#main-header .container .half p {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#main-header .container .half p .fa {
+    color: #ecd407;
+}
+
+#main-header .container .half:nth-of-type(2) {
+    text-align: right;
+}
+
+#main-header .container .half:nth-of-type(2) .inner {
+    width: 33%;
+    display: inline-block;
+}
+
+#main-header .container .half:nth-of-type(2) .inner p .fa {
+    float: left;
+    color: #FFFFFF;
+    line-height: 66px;
+}
+
+#main-header .container .half:nth-of-type(2) .inner p span {
+    font-size: 20px;
+    display: block;
+}

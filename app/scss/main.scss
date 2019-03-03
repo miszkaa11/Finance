@@ -1,0 +1,13 @@
+@import 'header';
+@import 'zmienne';
+@import 'form';
+@import 'footer';
+
+body {
+    margin: 0;
+    font-family: $font;
+}
+
+.clear {
+    clear: both;
+}

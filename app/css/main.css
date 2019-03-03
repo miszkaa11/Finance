@@ -1,0 +1,123 @@
+#main-header {
+    height: 100vh;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#main-header .container {
+    width: 90%;
+    margin: auto;
+}
+
+#main-header .container .half {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    color: #FFFFFF;
+}
+
+#main-header .container .half p {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#main-header .container .half p .fa {
+    color: #ecd407;
+}
+
+#main-header .container .half:nth-of-type(2) {
+    text-align: right;
+}
+
+#main-header .container .half:nth-of-type(2) .inner {
+    width: 33%;
+    display: inline-block;
+}
+
+#main-header .container .half:nth-of-type(2) .inner p .fa {
+    float: left;
+    color: #FFFFFF;
+    line-height: 66px;
+}
+
+#main-header .container .half:nth-of-type(2) .inner p span {
+    font-size: 20px;
+    display: block;
+}
+
+#form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    right: 5%;
+}
+
+#form h2 {
+    color: #fff;
+}
+
+#form h2 span {
+    color: #ecd407;
+}
+
+#form form {
+    background-color: #001d8a;
+    padding: 20px 10px;
+}
+
+#form form h3 {
+    color: #fff;
+}
+
+#form form input:not([type='submit']),
+    #form form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#form form input[type='submit'] {
+    background-color: #ecd407;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    border: 0;
+    outline: none;
+}
+
+#main-footer {
+    background-color: #292929;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+#main-footer .inner {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+#main-footer .inner .fa {
+    background-color: #ecd407;
+    color: #292929;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.clear {
+    clear: both;
+}

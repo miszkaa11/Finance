@@ -1,0 +1,43 @@
+#form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25%;
+    right: 5%;
+}
+
+#form h2 {
+    color: #fff;
+}
+
+#form h2 span {
+    color: #ecd407;
+}
+
+#form form {
+    background-color: #001d8a;
+    padding: 20px 10px;
+}
+
+#form form h3 {
+    color: #fff;
+}
+
+#form form input:not([type='submit']),
+    #form form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#form form input[type='submit'] {
+    background-color: #ecd407;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    border: 0;
+    outline: none;
+}

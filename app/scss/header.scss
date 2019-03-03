@@ -1,0 +1,56 @@
+@import 'zmienne';
+#main-header {
+	height: 100vh;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	.container {
+		width: 90%;
+		margin: auto;
+		.half {
+			width: 50%;
+			display: inline-block;
+			float: left;
+			color: #FFFFFF;
+			p {
+				font-weight: bold;
+				font-size: 28px;
+				.fa {
+					color: $zolty;
+				}
+			}
+			&:nth-of-type(2) {
+				//                drugi kontener half
+				//                text-align: right, poniewaz wewnetrzny kontener ustawiony jako inline-block (text-align zadziala na inline)
+				text-align: right;
+
+				.inner {
+					//                    ustawiam szerokosc na sztywno, jako ze jest inline-block, to zadziala text-align: right
+					width: 33%;
+					display: inline-block;
+
+					p {
+						//                        ustawiam float na ikonie, zeby przylgnela do lewej sciany diva ".inner"
+						.fa {
+							float: left;
+							color: #FFFFFF;
+							//                            centruje ikone wzgledem dwoch spanow
+							line-height: 66px;
+						}
+
+						span {
+							//                            span ustawiony na block, oplywa ikonke, spada jeden pod drugi
+							font-size: 20px;
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
+}
